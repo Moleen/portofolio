@@ -1,0 +1,282 @@
+* {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+nav .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar {
+    height: 4vw;
+}
+
+.navbar .container-fluid {
+    padding: 0 2.5vw;
+}
+
+.navbar .navbar-brand {
+    color: aliceblue;
+    font-size: 1.6vw;
+}
+
+.navbar .nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+
+}
+
+.navbar .nav-item {
+    padding: 0 1vw;
+
+}
+
+.offcanvas.offcanvas-end.show {
+
+    background-color: rgb(244, 244, 244);
+}
+
+.offcanvas.offcanvas-end.show .nav-link {
+    color: black;
+    font-size: 2vw;
+}
+
+#home {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, rgb(0, 0, 0), #ffffff00), url('../img/bg.jpg');
+}
+
+#home .card {
+    width: auto;
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+}
+
+#home .card-title {
+    font-size: 4vw;
+}
+
+#home .card-text {
+    font-size: 2.5vw;
+}
+
+#arrowdown {
+    position: absolute;
+    bottom: 3vw;
+    color: white;
+    font-size: 2vw;
+}
+
+#arrowdown p {
+    font-size: 1.2vw;
+    margin: 0;
+}
+
+#about {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#about .container-fluid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(31, 31, 31);
+}
+
+#profile-image {
+    padding: 2vw;
+    object-fit: cover;
+    border-radius: 100%;
+    height: 25vw;
+    width: 25vw;
+    padding: 2vw;
+}
+
+.card.profile {
+    margin: 2vw;
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+}
+
+.card.profile .card-body {
+    padding: 1vw;
+}
+
+.card.profile .card-title {
+    margin: 0;
+    font-size: 2vw;
+    padding-bottom: 1vw;
+}
+
+.card.profile .card-text {
+    padding-bottom: 1vw;
+    font-size: 1.2vw;
+    margin: 0;
+}
+
+.card.profile .btn {
+    margin-bottom: 1vw;
+    font-size: 1vw;
+}
+
+#edu {
+    padding: 0;
+}
+
+#edu h4 {
+    font-size: 1vw;
+    padding-top: 1vw;
+}
+
+#edu .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+#edu .card-body {
+    padding: 0.5vw;
+    width: auto;
+}
+
+#edu .card-title {
+    padding: 0;
+    font-size: 1vw;
+    color: aliceblue;
+}
+
+#edu .card-text {
+    color: aliceblue;
+    padding: 0;
+    font-size: 1vw;
+}
+
+#edu .card img {
+    height: 3vw;
+    width: 3vw;
+    padding: 0.5vw;
+    background-color: aliceblue;
+    border-radius: 100%;
+}
+
+#project {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#project-continer {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+#project-continer h1{
+    font-size: 2vw;
+    color: aliceblue;
+}
+#project-continer .container{
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+#project-continer .card{
+    margin: 1vw;
+}
+
+#contact {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #222831;
+    padding: 2vw;
+}
+
+#contact-container h2{
+    text-align: center;
+    color: aliceblue;
+}
+#contact-container p{
+    text-align: center;
+    color: aliceblue;
+    margin: 0;
+}
+#contact-container .btn-group{
+    align-self: center;
+}
+#contact-container .btn{
+    padding: 0;
+    margin: 1vw;
+}
+#contact-container .btn-group a img{
+    height: 3vw;
+    width: 3vw;
+}
+#contact-container form{
+    display: flex;
+    flex-direction: column;
+}
+#contact-container label{
+    color: aliceblue;
+}
+#contact-container form .btn.submit{
+    padding: 0.5vw;
+    margin: 1vw auto;
+}
+
+footer{
+    height: 5vw;
+    background-color: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+}
+footer a p{
+    margin: auto;
+    color: aliceblue;
+}
+
